@@ -2,11 +2,7 @@
 
 #
 build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
+
 # MacOS
 .DS_Store
 # Byte-compiled / optimized / DLL files
@@ -37,7 +33,11 @@ share/python-wheels/
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
-
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
