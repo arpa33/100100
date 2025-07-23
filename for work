@@ -1,5 +1,10 @@
 
-
+ Distribution / packaging
+.Python
+# MacOS
+.DS_Store
+*.spec
+devel
 #
 build/
 
@@ -9,12 +14,7 @@ build/
 __pycache__/
 *.py[cod]
 *$py.class
- Distribution / packaging
-.Python
-# MacOS
-.DS_Store
-*.spec
-develop-eggs/
+op-eggs/
 dist/
 downloads/
 eggs/
