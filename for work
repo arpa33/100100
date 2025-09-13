@@ -14,14 +14,7 @@ build/
 __pycache__/
 *.py[cod]
 *$py.class
-op-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-# Installer logs
-pip-log.txt
-# C extensions
+
 *.so
 # C extensions
 *.so
@@ -64,7 +57,14 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
-
+op-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+# Installer logs
+pip-log.txt
+# C extensions
 # Translations
 *.mo
 *.pot
