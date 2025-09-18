@@ -1,12 +1,5 @@
 
- Distribution / packaging
-.Python
-# MacOS
-.DS_Store
-*.spec
-devel
-#
-build/
+
 
 # MacOS
 .DS_Store
@@ -36,7 +29,14 @@ share/python-wheels/
 devel
 #
 build/
-
+ Distribution / packaging
+.Python
+# MacOS
+.DS_Store
+*.spec
+devel
+#
+build/
 # MacOS
 .DS_Store
 # Byte-compiled / optimized / DLL files
