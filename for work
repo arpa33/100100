@@ -8,7 +8,11 @@ htmlcov/
 nosetests.xml
 # C extensions
 *.so
-/
+/wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 parts/
 sdist/
 var/
@@ -22,11 +26,7 @@ __pycache__/
 
 *.so
 
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
