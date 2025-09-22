@@ -6,7 +6,12 @@ htmlcov/
 .coverage.*
 .cache
 nosetests.xml
-
+# C extensions
+*.so
+/
+parts/
+sdist/
+var/
 
 # MacOS
 .DS_Store
@@ -16,12 +21,7 @@ __pycache__/
 *$py.class
 
 *.so
-# C extensions
-*.so
-/
-parts/
-sdist/
-var/
+
 wheels/
 share/python-wheels/
 *.egg-info/
