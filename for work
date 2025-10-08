@@ -1,12 +1,4 @@
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-# C extensions
+
 *.so
 /wheels/
 share/python-wheels/
@@ -25,7 +17,15 @@ __pycache__/
 *$py.class
 
 *.so
-
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+# C extensions
 
 
 # PyInstaller
