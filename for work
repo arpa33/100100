@@ -1,18 +1,7 @@
 
 
 
-# MacOS
-.DS_Store
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
 
-*.so
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
 .coverage
 .coverage.*
 .cache
@@ -34,7 +23,18 @@ var/
 *.manifest
 .spec
 devel
-#
+## MacOS
+.DS_Store
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
 build/
  Distribution / packaging
 .Python
