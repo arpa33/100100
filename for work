@@ -1,3 +1,10 @@
+devel
+## MacOS
+.DS_Store
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
 
 
@@ -22,13 +29,6 @@ var/
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 .spec
-devel
-## MacOS
-.DS_Store
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
 
 *.so
 # Unit test / coverage reports
