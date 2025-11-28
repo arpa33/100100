@@ -9,26 +9,7 @@ __pycache__/
 
 
 
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-# C extensions
 
-*.so
-/wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-parts/
-sdist/
-var/
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-.spec
 
 *.so
 # Unit test / coverage reports
@@ -186,7 +167,26 @@ wallet_data.txt
 
 # windsurf rules
 .windsurfrules
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+# C extensions
 
+*.so
+/wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+parts/
+sdist/
+var/
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+.spec
 # export/import data
 *.response
 scripts/*.yaml
