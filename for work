@@ -12,12 +12,6 @@ __pycache__/
 
 
 
-build/
-# MacOS
-.DS_Store
-# Byte-compiled / optimized / DLL files
-__pycache__/
-pip-delete-this-directory.txt
 
 
 coverage.xml
@@ -37,6 +31,12 @@ pip-log.txt
 # Translations
 *.mo
 *.pot
+build/
+# MacOS
+.DS_Store
+# Byte-compiled / optimized / DLL files
+__pycache__/
+pip-delete-this-directory.txt
 
 # Django stuff:
 *.log
