@@ -11,19 +11,7 @@ __pycache__/
 
 
 
-*.so
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-build/
- Distribution / packaging
-.Python
-# MacOS
-.DS_Store
-*.spec
-devel
-#
+
 build/
 # MacOS
 .DS_Store
