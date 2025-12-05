@@ -1,24 +1,5 @@
 
-*.py[cod]
-*$py.class
-.eggs/
-# Installer logs
-pip-log.txt
-# C extensions
-# Translations
-*.mo
-*.pot
-build/
-# MacOS
-.DS_Store
-# Byte-compiled / optimized / DLL files
-__pycache__/
-pip-delete-this-directory.txt
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
 db.sqlite3-journal
 
 # Flask stuff:
@@ -50,7 +31,26 @@ eggs/devel
 __pycache__/
 # Jupyter Notebook
 .ipynb_checkpoints
+*.py[cod]
+*$py.class
+.eggs/
+# Installer logs
+pip-log.txt
+# C extensions
+# Translations
+*.mo
+*.pot
+build/
+# MacOS
+.DS_Store
+# Byte-compiled / optimized / DLL files
+__pycache__/
+pip-delete-this-directory.txt
 
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
 # IPython
 profile_default/
 ipython_config.py
