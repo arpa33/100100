@@ -1,17 +1,4 @@
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
-op-eggs/
-dist/
-downloads/
-eggs/devel
-## MacOS
-.DS_Store
-# Byte-compiled / optimized / DLL files
-__pycache__/
+
 *.py[cod]
 *$py.class
 .eggs/
@@ -47,7 +34,20 @@ docs/_build/
 # PyBuilder
 .pybuilder/
 target/
-
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+op-eggs/
+dist/
+downloads/
+eggs/devel
+## MacOS
+.DS_Store
+# Byte-compiled / optimized / DLL files
+__pycache__/
 # Jupyter Notebook
 .ipynb_checkpoints
 
