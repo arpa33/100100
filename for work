@@ -1,12 +1,4 @@
-*.mo
-*.pot
-build/
-# MacOS
-.DS_Store
-# Byte-compiled / optimized / DLL files
-__pycache__/
-pip-delete-this-directory.txt
-# Django stuff:
+
 *.log
 local_settings.py
 db.sqlite3
@@ -36,7 +28,15 @@ __pycache__/
 pip-log.txt
 # C extensions
 # Translations
-
+*.mo
+*.pot
+build/
+# MacOS
+.DS_Store
+# Byte-compiled / optimized / DLL files
+__pycache__/
+pip-delete-this-directory.txt
+# Django stuff:
 
 
 
