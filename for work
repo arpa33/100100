@@ -1,5 +1,13 @@
 
+# Flask stuff:
+instance/
+.webassets-cache
 
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
 
 .DS_Store
 # Byte-compiled / optimized / DLL files
@@ -40,15 +48,7 @@ eggs/devel
 ## MacOS
 
 
-# Flask stuff:
-instance/
-.webassets-cache
 
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
 
 # PyBuilder
 .pybuilder/
