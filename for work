@@ -9,13 +9,7 @@ instance/
 # Sphinx documentation
 docs/_build/
 
-.DS_Store
-# Byte-compiled / optimized / DLL files
-__pycache__/
-# Jupyter Notebook
-.ipynb_checkpoints
-*.py[cod]
-*$py.class
+.
 .eggs/
 # Installer logs
 pip-log.txt
@@ -48,7 +42,13 @@ eggs/devel
 ## MacOS
 
 
-
+DS_Store
+# Byte-compiled / optimized / DLL files
+__pycache__/
+# Jupyter Notebook
+.ipynb_checkpoints
+*.py[cod]
+*$py.class
 
 # PyBuilder
 .pybuilder/
