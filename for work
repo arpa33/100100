@@ -10,20 +10,6 @@ instance/
 docs/_build/
 
 .
-.eggs/
-# Installer logs
-pip-log.txt
-# C extensions
-# Translations
-*.mo
-*.pot
-build/
-# MacOS
-.DS_Store
-# Byte-compiled / optimized / DLL files
-__pycache__/
-pip-delete-this-directory.txt
-# Django stuff:
 *.log
 local_settings.py
 db.sqlite3
@@ -151,6 +137,20 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+.eggs/
+# Installer logs
+pip-log.txt
+# C extensions
+# Translations
+*.mo
+*.pot
+build/
+# MacOS
+.DS_Store
+# Byte-compiled / optimized / DLL files
+__pycache__/
+pip-delete-this-directory.txt
+# Django stuff:
 
 
 # IDE
