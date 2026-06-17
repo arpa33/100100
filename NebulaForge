@@ -1,0 +1,19 @@
+# NebulaForge
+
+NebulaForge is a lightweight and extensible workflow automation engine that enables developers to connect services, automate repetitive tasks, and streamline data flows.
+
+## Features
+
+- Modular architecture
+- Real-time task monitoring
+- Secure API integrations
+- Custom workflow creation
+- Cross-platform support
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/nebulaforge.git
+npm install
+npm start
