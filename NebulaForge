@@ -17,3 +17,18 @@ NebulaForge is a lightweight and extensible workflow automation engine that enab
    git clone https://github.com/your-username/nebulaforge.git
 npm install
 npm start
+import random
+
+prefixes = [
+    "Nova", "Quantum", "Cyber", "Astra", "Vertex",
+    "Nexus", "Shadow", "Titan", "Pulse", "Orbit"
+]
+
+suffixes = [
+    "X", "Core", "Net", "Forge", "Lab",
+    "Chain", "Hub", "Sync", "Vault", "Flow"
+]
+
+unique_name = f"{random.choice(prefixes)}{random.choice(suffixes)}{random.randint(1000,9999)}"
+
+print("Unique Name:", unique_name)
